@@ -5,3 +5,4 @@ An embedded system for simulated traffic light intersection was built in this pr
 
 ##[Design Description (TrafficeLight.pdf)](TrafficLight.pdf)
 
+##[Demo Run](https://www.youtube.com/watch?v=6JlPAicEkgk&feature=youtu.be)
