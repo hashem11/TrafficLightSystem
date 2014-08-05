@@ -2,8 +2,6 @@
 // TableTrafficLight.c for Lab 10
 // Runs on LM4F120/TM4C123
 // Index implementation of a Moore finite state machine to operate a traffic light.  
-// Daniel Valvano, Jonathan Valvano
-// November 7, 2013
 
 // east/west red light connected to PB5
 // east/west yellow light connected to PB4
@@ -26,7 +24,7 @@
 #define NVIC_ST_CURRENT_R   (*((volatile unsigned long *)0xE000E018))
 	
 #define SENSOR              (*((volatile unsigned long *)0x40004070)) //acesses PA4-PA2
-#define VEHICLE_LIGHTS       (*((volatile unsigned long *)0x400050FC))	//accesses PB5–PB0
+#define VEHICLE_LIGHTS       (*((volatile unsigned long *)0x400050FC))	//accesses PB5â€“PB0
 #define PEDESTRIAN_LIGHTS    (*((volatile unsigned long *)0x40025028))	//accesses PF3 and PF1	
 	
 #define GPIO_PORTB_OUT          (*((volatile unsigned long *)0x400050FC)) // bits 5-0
